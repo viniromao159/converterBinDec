@@ -7,7 +7,7 @@ def converter(operation, valor): #<----- Função de conversão
         return result
     else:
         valor = int(valor)
-        return bin(valor)[2:valor]
+        return bin(valor)[2:]
 
 
 os.system('cls') or None  # limpeza do terminal
